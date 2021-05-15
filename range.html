@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Template Page</title>
+    <link 
+      href="https://cdn.jsdelivr.net/npm/neomo@1.0.1/dist/neomo.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/neomo@1.0.1/dist/neomo.min.js"></script>
+    
+  </head>
+  <body class="neomo">
+    <header class="neomo" style="z-index: 5;">
+      <div class="container">
+        <nav>
+          <ul class="nav mt-0 mb-0 pt-1 pb-1" >    
+              <a href="./main.html">
+                <img 
+                  class="ml-10 mr-10" 
+                  src="./mainlogo3.png" 
+                  width="80px" 
+                  height="80px"
+                />
+              </a>
+              
+              <li class="nav-item mt-auto mb-auto">
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6"> 
+                        <strong>Components</strong>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content text-center">
+                        <a href="./alert.html">Alert</a>
+                        <a href="./badge.html">Badge</a>
+                        <a href="./breadcrumb.html">Breadcrumb</a>
+                        <a href="./button.html">Button</a>
+                        <a href="./card.html">Card</a>
+                        <a href="./dropdown.html">Dropdown</a>
+                        <a href="./modal.html">Modal</a>
+                        <a href="./navigation.html">Navigation</a>
+                        <a href="./pagnation.html">Pagination</a>
+                        <a href="./progressbar.html">Progressbar</a>
+                        <a href="./select.html">Select</a>
+                        <a href="./spinner.html">Spinner</a>
+                        <a href="./tab.html">Tab</a>
+                      </div>
+                  </div>
+              </li>
+              <li class="nav-item mt-auto mb-auto">
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6" >
+                        <strong>Content</strong>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content text-center">
+                        <a href="./table.html">Table</a>
+                      </div>
+                  </div>
+              </li>
+              <li class="nav-item mt-auto mb-auto">
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6">
+                        <strong>Forms</strong>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                               <div class="dropdown-content text-center">
+                        <a href="./checkbox.html">Checkbox</a>
+                        <a href="./file.html">File</a>
+                        <a href="./input.html">Input</a>
+                        <a href="./radio.html">Radio</a>
+                        <a href="./range.html">Range</a>
+                        <a href="./switches.html">Switches</a>
+                      </div>
+                  </div>
+              </li>
+  
+            </li>
+            <li class="nav-item mt-auto mb-auto ml-auto">
+              <button class="button outset-neomo p-1 font-size-5" onclick="location.href='https://neomo-ui.com/'">
+                <i class="fas fa-book-open"></i>
+                Document
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="columns just-center">
+          <div class="column size-12 text-center">
+            <h1 class="neomo-outset-text text-center">Range</h1>
+            <p class="font-size-4 text-center"><strong>Try Neomo Ranges which have been designed based on Neomorphism.</strong></p>
+            <p class="font-size-6 text-center">
+              Refer to the 
+              <button class="button font-size-6 outset-neomo official-documment"  onclick="location.href='https://neomo-ui.com/form/range/'"><strong>official document</strong>
+                <i class="fas fa-mouse-pointer"></i>
+              </button> 
+              from the website for more information!
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="line">
+      <div class="container content">
+        <div class="columns just-center">
+
+     
+          <div class="column size-6 text-center">
+            <p class="font-size-3 text-center">Default Range</p>
+            <input type="range" min="1" max="100" class="range-round inset-neomo myRange"   />
+            <p>Value: <span class="demo"></span></p>
+          </div>
+
+        </div>
+      </div>
+      <hr class="line">
+
+
+      <!-- Footer -->
+      <footer class="pt-8 pb-8 m-5" >
+        <div class="container">
+          <div
+            class="text-center"
+          >
+            <span>Copyright &copy; Your Website 2021</span>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+  
+
+    
+  </body>
+</html>
+<script
+src="https://kit.fontawesome.com/c393dc96fa.js"
+crossorigin="anonymous"
+></script>
+<script src="./neomo/js/neomo.js"></script>
+<style>
+    body{
+        /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+        height: 100%;
+        margin: 0;
+    }
+
+    header{
+        /* border-bottom: solid thin rgb(236, 230, 230); */
+        position: sticky;
+        top:0;
+        z-index: 100;
+        height: 6rem;
+    }
+
+    section { 
+      height:100vh; 
+      
+    }
+  
+
+    .nav-item > .dropdown > .dropdown-button{
+        box-shadow: none!important;
+        text-align: center;
+        
+    }
+
+    .columns:first-child{
+      padding-top: 5rem;
+    }
+
+    .dropdown-button{
+      min-width: 100px;
+    }
+
+    .dropdown-button i{
+      margin-left: 1rem;
+    }
+
+    .neomo-outset-text {
+      color: #9eb3fa;
+      text-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #9bbff5;
+      font-size: 80px;
+    }
+
+    .align-items-center {
+      align-items: center !important;
+    }
+
+    .border-radius {
+      border-radius: 30px;
+    }
+
+    .line{
+      width: 100wh;
+      border: thin solid rgba(220, 238, 243, 0.74);
+      margin-top: 8rem;
+    }
+
+    .text-point-gray {
+      color: var(--gray-600);
+    }
+
+    .text-point-purple {
+      color: var(--purple);
+    }
+
+    .text-point-blue {
+      color: var(--blue);
+    }
+
+    .text-point-orange {
+      color: #fa821b;
+    }
+
+.menu-title button{
+  min-width: 9rem;
+  justify-content: space-between;
+}
+.menu-title a{
+  font-size: 0.9rem;
+}
+.dropdown-content a{
+  color: gray;
+}
+.dropdown-content a:hover{
+  color:#577eff !important;
+}
+button:hover{
+  color:#577eff !important
+}
+.official-documment{
+  padding:0.9rem;
+  margin: 0 0.7rem;
+}
+.content{
+  text-align: center;
+}
+.content p{
+  margin: 2rem;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+}
+
+    /*  */
+    .range-round {
+      background: var(--neomo);
+
+    }
+
+    .range-round::-webkit-slider-thumb {
+      background:  #cbe7fc;
+      box-shadow: none;
+  
+    }
+
+    .range-round::-moz-range-thumb {
+      background:  #cbe7fc;
+      box-shadow: none;
+  
+    }
+
+
+
+    /*  */
+
+
+
+
+</style>
