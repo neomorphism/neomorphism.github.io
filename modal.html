@@ -8,7 +8,9 @@
       href="https://cdn.jsdelivr.net/npm/neomo@1.0.2/dist/neomo.min.css"
       rel="stylesheet"
     />
+
     <script src="https://cdn.jsdelivr.net/npm/neomo@1.0.2/dist/neomo.min.js"></script>
+
   </head>
   <body class="neomo">
     <header class="neomo" style="z-index: 5;">
@@ -106,105 +108,119 @@
       <hr class="line">
       <div class="container content">
         <div class="columns just-center interval-1 pt-1">
-          <div class="column size-10">
-            <button class="modal-button outset-neomo font-size-3">Message MODAL</button>
-            <div class="modal">
+            <div class="column size-10">
+              <button data-modal-id="modal" class="modal-button outset-neomo">
+                Message MODAL 
+              </button>
+            </div>
+            <div data-modal-id="modal" class="modal">
               <div class="modal-content--md outset-neomo">
                 <span class="modal-close">&times;</span>
                 <p>You can insert any type of content with this modal class.</p>
               </div>
             </div>
-          </div>
-          <div class="column size-10">
-            <button class="modal-button outset-neomo font-size-3">Middle Image Card MODAL</button>
-            <div class="modal">
-              <div class="modal-content--sm outset-neomo">
-                <span class="modal-close">&times;</span>
       
-                  <div class="card-image">
-                    <img
-                      src="./card_img_11.jpg"
-                      alt="Placeholder image"
-                    />
-                  </div>
-                  <div class="card-content">
-                    <p class="font-size-4 profile-link text-left m-0">
-                      <img 
-                        class="img-profile p-0" 
-                        srcset="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=1&amp;
-                        auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
-                        bg=fff 1x, https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=2&amp;auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
-                        width="32" 
-                        height="32" 
-                        role="presentation" 
-                        alt="Go to Julian Steenbergen's profile"
-                      >
-                      
-                      Julian Steenbergen
-                    </p>
-                    <p class="text-left">
-                      I'm actually a musician, but photography is just too fun. 
-                      It brings me joy, inspiration and peace. 
-                      Happy to support the community here with my work! ✨
-                    </p>
-                    <p class="text-left"> 
-                      <i class="fas fa-calendar-week"></i> 
-                      Published on May 9, 2021
-                    </p>
-                    <p class="text-left">
-                      <i class="fas fa-shield-alt"></i>
-                      Free to use under the Unsplash License
-                    </p>
-                    
-                  </div>
-              
-              </div>
-            </div>
-          </div>
+
+
           <div class="column size-10">
-            <button class="modal-button outset-neomo font-size-3">Large Image Card MODAL</button>
-            <div class="modal">
-              <div class="modal-content--md outset-neomo">
-                <span class="modal-close">&times;</span>
-                <div class="card-image">
-                  <img
-                    src="./card_img_1111.jpg"
-                    alt="Placeholder image"
-                  />
-                </div>
-                <div class="card-content pt-1 pl-1 pr-1">
-                  
-                  <p class="font-size-4 profile-link text-left m-0">
-                    <img 
-                      class="img-profile p-0" 
-                      srcset="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=1&amp;
-                      auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
-                      bg=fff 1x, https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=2&amp;
-                      auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" 
-                      src="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?auto=format&amp;
-                      fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
-                      width="32" height="32" role="presentation" alt="Go to Gabrielle Henderson's profile"
-                    >
-                    Gabrielle Henderson
-                  </p>
-                  <p class="text-left">
-                    Melbourne based photographer, wordsmith, crafter...xoxo
-                    Owner of d'oro global. doroglobal.com
-                  </p>
-                  <p class="text-left"> 
-                    <i class="fas fa-calendar-week"></i> 
-                    Published on May 9, 2021
-                  </p>
-                  <p class="text-left">
-                    <i class="fas fa-shield-alt"></i>
-                    Free to use under the Unsplash License
-                  </p>
-                </div>
-              </div>
-            </div>
+            <button data-modal-id="modal3" class="modal-button outset-neomo">Middle Card MODAL</button>
+            <div data-modal-id="modal3" class="modal">
+             <div class="modal-content--md outset-neomo">
+        <span class="modal-close">&times;</span>
+        <header class="card-header">
+          <p class="card-header-title">Modal Card</p>
+        </header>
+        <div class="column size-10 text-center ml-10" style="margin: 0 auto">
+          <div class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+              alt="Placeholder image"
+              style="border-radius: 0"
+            />
+          </div>
+          <div class="card-content">
+            <p class="font-size-4 profile-link text-left m-0">
+              <img
+                class="img-profile p-0"
+                src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+                width="32"
+                height="32"
+                role="presentation"
+                alt="Go to Julian Steenbergen's profile"
+              />
+
+              Julian Steenbergen
+            </p>
+            <p class="text-left">
+              I'm actually a musician, but photography is just too fun. It brings me
+              joy, inspiration and peace. Happy to support the community here with
+              my work! ✨
+            </p>
+            <p class="text-left">
+              <i class="fas fa-calendar-week"></i>
+              Published on May 9, 2021
+            </p>
+            <p class="text-left">
+              <i class="fas fa-shield-alt"></i>
+              Free to use under the Unsplash License
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+
+          <div class="column size-10">
+            <button data-modal-id="modal4" class="modal-button outset-neomo">Small Card MODAL</button>
+    <div data-modal-id="modal4" class="modal">
+      <div class="modal-content--sm outset-neomo">
+        <span class="modal-close">&times;</span>
+        <header class="card-header">
+          <p class="card-header-title">Modal Card</p>
+        </header>
+        <div class="column size-10 text-center ml-10" style="margin: 0 auto">
+          <div class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Placeholder image"
+              style="border-radius: 0"
+            />
+          </div>
+          <div class="card-content">
+            <p class="font-size-4 profile-link text-left m-0">
+              <img
+                class="img-profile p-0"
+                src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+                width="32"
+                height="32"
+                role="presentation"
+                alt="Go to Julian Steenbergen's profile"
+              />
+
+              Julian Steenbergen
+            </p>
+            <p class="text-left">
+              I'm actually a musician, but photography is just too fun. It brings me
+              joy, inspiration and peace. Happy to support the community here with
+              my work! ✨
+            </p>
+            <p class="text-left">
+              <i class="fas fa-calendar-week"></i>
+              Published on May 9, 2021
+            </p>
+            <p class="text-left">
+              <i class="fas fa-shield-alt"></i>
+              Free to use under the Unsplash License
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
           </div>
 
         </div>
+        
       </div>
       <hr class="line">
 
@@ -306,6 +322,10 @@ crossorigin="anonymous"
 
     .text-point-orange {
       color: #fa821b;
+    }
+
+    .modal-button{
+      font-size: 20px;
     }
 
 .menu-title button{
