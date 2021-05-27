@@ -11,23 +11,23 @@
     <script src="https://cdn.jsdelivr.net/npm/neomo@2.0.0/dist/neomo.min.js"></script>
   </head>
   <body class="neomo">
-		<header class="neomo" style="z-index: 5;">
+    <header class="neomo" style="z-index: 5;">
       <div class="container">
-        <nav >
+        <nav>
           <ul class="nav mt-0 mb-0 pt-1 pb-1" >    
               <a href="./">
                 <img 
                   class="ml-10 mr-10" 
                   src="./mainlogo3.png" 
-                  width="64px" 
-                  height="64px"
+                  width="80px" 
+                  height="80px"
                 />
               </a>
               
               <li class="nav-item mt-auto mb-auto">
-                  <div class="dropdown mr-1">
-                      <button class="dropdown-button outset-neomo p-1 font-size-5"> 
-                        Components
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6"> 
+                        <strong>Components</strong>
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content text-center">
@@ -45,14 +45,13 @@
                         <a href="./spinner.html">Spinner</a>
                         <a href="./tab.html">Tab</a>
                         <a href="./toast.html">Toast</a>
-                        <a href="./tooltip.html">Tooltip</a>
                       </div>
                   </div>
               </li>
               <li class="nav-item mt-auto mb-auto">
-                  <div class="dropdown mr-1">
-                      <button class="dropdown-button outset-neomo p-1 font-size-5" >
-                        Content
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6" >
+                        <strong>Content</strong>
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content text-center">
@@ -61,15 +60,14 @@
                   </div>
               </li>
               <li class="nav-item mt-auto mb-auto">
-                  <div class="dropdown mr-1">
-                      <button class="dropdown-button outset-neomo p-1 font-size-5">
-                        Forms
+                  <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6">
+                        <strong>Forms</strong>
                         <i class="fa fa-caret-down"></i>
                       </button>
                                <div class="dropdown-content text-center">
                         <a href="./checkbox.html">Checkbox</a>
                         <a href="./file.html">File</a>
-                        <a href="./floatingLabel.html">FloatingLabel</a>
                         <a href="./input.html">Input</a>
                         
                         <a href="./radio.html">Radio</a>
@@ -81,7 +79,7 @@
   
             </li>
             <li class="nav-item mt-auto mb-auto ml-auto">
-              <button class="button outset-neomo p-1 font-size-3" onclick="window.open('https://neomo-ui.com/')">
+              <button class="button outset-neomo p-1 font-size-5" onclick="window.open('https://neomo-ui.com/')">
                 <i class="fas fa-book-open"></i>
                 Document
               </button>
@@ -89,53 +87,59 @@
           </ul>
         </nav>
       </div>
-		</header>
+    </header>
     <section>
       <div class="container">
         <div class="columns just-center">
           <div class="column size-12 text-center">
             <h1 class="neomo-outset-text text-center">Toast</h1>
-            <p class="font-size-3 text-center">Try Neomo Toasts which have been designed based on Neomorphism.</p>
-            <p class="font-size-5 text-center">Refer to the <button class="button font-size-5 outset-neomo">official document <i class="fas fa-mouse-pointer"></i></button> from the website for more information!</p>
+            <p class="font-size-4 text-center"><strong>Try Neomo Toasts which have been designed based on Neomorphism.</strong></p>
+            <p class="font-size-6 text-center">
+              Refer to the 
+              <button class="button font-size-6 outset-neomo official-documment"  onclick="location.href='https://neomo-ui.com/components/tab/'"><strong>official document</strong>
+                <i class="fas fa-mouse-pointer"></i>
+              </button> 
+              from the website for more information!
+            </p>
           </div>
-
         </div>
       </div>
       <hr class="line">
-      <div class="container">
-        <div class="columns ">
-     
-          <div class="column size-6 text-center">
-            <p class="font-size-3 text-center">Outset Toast</p>
-            <div class="toast show outset-neomo m-auto">
-              <div class="toast-header">
-                <strong class="font-size-5">Neomo</strong>
-                <small class="mr-2 ml-auto">12 mins ago</small>
-                <span class="toast-close">X</span>
+      <div class="container content">
+        <div class="columns just-center">
+            <div class="column size-6 text-center">
+                <p class="font-size-3 text-center">Outset Toast</p>
+                <div class="toast show outset-neomo m-auto">
+                  <div class="toast-header">
+                    <strong class="font-size-5">Neomo</strong>
+                    <small class="mr-2 ml-auto">12 mins ago</small>
+                    <span class="toast-close">X</span>
+                  </div>
+                  <div class="toast-body text-center">
+                    Hello, world! This is a toast message.
+                  </div>
+                </div>
               </div>
-              <div class="toast-body text-center">
-                Hello, world! This is a toast message.
+              <div class="column size-6 text-center">
+                <p class="font-size-3 text-center">Inset Toast</p>
+                <div class="toast show inset-neomo m-auto">
+                  <div class="toast-header">
+                    <strong class="font-size-5">Neomo</strong>
+                    <small class="mr-2 ml-auto">12 mins ago</small>
+                    <span class="toast-close">X</span>
+                  </div>
+                  <div class="toast-body text-center">
+                    Hello, world! This is a toast message.
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="column size-6 text-center">
-            <p class="font-size-3 text-center">Inset Toast</p>
-            <div class="toast show inset-neomo m-auto">
-              <div class="toast-header">
-                <strong class="font-size-5">Neomo</strong>
-                <small class="mr-2 ml-auto">12 mins ago</small>
-                <span class="toast-close">X</span>
-              </div>
-              <div class="toast-body text-center">
-                Hello, world! This is a toast message.
-              </div>
-            </div>
-          </div>
          
-      
+          
         </div>
+      </div>
 
       <hr class="line">
+      
       <!-- Footer -->
       <footer class="pt-8 pb-8 m-5" >
         <div class="container">
@@ -154,8 +158,6 @@ src="https://kit.fontawesome.com/c393dc96fa.js"
 crossorigin="anonymous"
 ></script>
 <style>
-    /* .container { position:relative; padding-top:50px; } */
-
     body{
         /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
         height: 100%;
@@ -186,11 +188,26 @@ crossorigin="anonymous"
       padding-top: 5rem;
     }
 
-    
+    .dropdown-button{
+      min-width: 100px;
+    }
+
+    .dropdown-button i{
+      margin-left: 1rem;
+    }
+
     .neomo-outset-text {
-      color: var(--neomo);
-      text-shadow: -3px -3px 7px #94aedbe5, 3px 3px 5px #80a9ec49;
+      color: #9eb3fa;
+      text-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #9bbff5;
       font-size: 80px;
+    }
+
+    .align-items-center {
+      align-items: center !important;
+    }
+
+    .border-radius {
+      border-radius: 30px;
     }
 
     .line{
@@ -199,11 +216,50 @@ crossorigin="anonymous"
       margin-top: 8rem;
     }
 
-    .dropdown-button{
-      min-width: 100px;
+    .text-point-gray {
+      color: var(--gray-600);
     }
 
-    /*  */
+    .text-point-purple {
+      color: var(--purple);
+    }
 
+    .text-point-blue {
+      color: var(--blue);
+    }
+
+    .text-point-orange {
+      color: #fa821b;
+    }
+
+.menu-title button{
+  min-width: 9rem;
+  justify-content: space-between;
+}
+.menu-title a{
+  font-size: 0.9rem;
+}
+.dropdown-content a{
+  color: gray;
+}
+.dropdown-content a:hover{
+  color:#577eff !important;
+}
+button:hover{
+  color:#577eff !important
+}
+.official-documment{
+  padding:0.9rem;
+  margin: 0 0.7rem;
+}
+.content{
+  text-align: center;
+}
+.content p{
+  margin: 2rem;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+}
+    /*  */
 
 </style>
