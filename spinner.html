@@ -15,15 +15,85 @@
     <header class="neomo" style="z-index: 5;">
       <div class="container">
         <nav>
-          <ul class="nav mt-0 mb-0 pt-1 pb-1" >    
-              <a href="./">
-                <img 
-                  class="ml-10 mr-10" 
-                  src="./mainlogo3.png" 
-                  width="80px" 
-                  height="80px"
-                />
-              </a>
+          <ul class="nav mt-0 mb-0 pt-1 pb-1" style="align-items:center">   
+           
+
+            <a class="logo" href="./main.html">
+              <img 
+                src="./mainlogo3.png" 
+                width="80px" 
+                height="80px"
+              />
+            </a>
+
+            
+            <button
+            data-modal-id="modal"
+            class="icon toggle-menu outset-neomo modal-button"
+            >
+              <i
+                class="fas fa-caret-down"
+              ></i>
+            </button>
+            <div data-modal-id="modal" class="modal">
+              <div class="modal-content--md outset-neomo" style="width: 80%;">
+                <span class="modal-close">&times;</span>
+                <p class="font-size-3 text-center">Menu</p>
+                <ul class="nav-column  border-radius text-center">
+                  <li class="nav-item m-1">
+                    <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6"> 
+                        <strong>Components</strong>
+                      </button>
+                      <div class="dropdown-content text-center">
+                        <a href="./alert.html">Alert</a>
+                        <a href="./badge.html">Badge</a>
+                        <a href="./breadcrumb.html">Breadcrumb</a>
+                        <a href="./button.html">Button</a>
+                        <a href="./card.html">Card</a>
+                        <a href="./dropdown.html">Dropdown</a>
+                        <a href="./modal.html">Modal</a>
+                        <a href="./navigation.html">Navigation</a>
+                        <a href="./pagnation.html">Pagination</a>
+                        <a href="./progressbar.html">Progressbar</a>
+                        <a href="./select.html">Select</a>
+                        <a href="./spinner.html">Spinner</a>
+                        <a href="./tab.html">Tab</a>
+                        <a href="./toast.html">Toast</a>
+                      </div>
+                  </div>
+                  </li>
+                  <li class="nav-item m-1">
+                    <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6" >
+                        <strong class="ml-1 mr-1"> Content </strong>
+                      </button>
+                      <div class="dropdown-content text-center">
+                        <a href="./table.html">Table</a>
+                      </div>
+                  </div>
+                  </li>
+                  <li class="nav-item m-1">
+                    <div class="dropdown menu-title">
+                      <button class="dropdown-button outset-neomo p-1 font-size-6">
+                        <strong class="ml-1 mr-3">Forms</strong>
+                      </button>
+                               <div class="dropdown-content text-center">
+                        <a href="./checkbox.html">Checkbox</a>
+                        <a href="./file.html">File</a>
+                        <a href="./input.html">Input</a>
+                        <a href="./radio.html">Radio</a>
+                        <a href="./range.html">Range</a>
+                        <a href="./switch.html">Switch</a>
+                      </div>
+                  </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            
+              
               
               <li class="nav-item mt-auto mb-auto">
                   <div class="dropdown menu-title">
@@ -45,7 +115,6 @@
                         <a href="./select.html">Select</a>
                         <a href="./spinner.html">Spinner</a>
                         <a href="./tab.html">Tab</a>
-                        <a href="./toast.html">Toast</a>
                       </div>
                   </div>
               </li>
@@ -70,21 +139,20 @@
                         <a href="./checkbox.html">Checkbox</a>
                         <a href="./file.html">File</a>
                         <a href="./input.html">Input</a>
-                        
                         <a href="./radio.html">Radio</a>
                         <a href="./range.html">Range</a>
-                        <a href="./switches.html">Switches</a>
+                        <a href="./switch.html">Switch</a>
                       </div>
                   </div>
               </li>
-  
             </li>
-            <li class="nav-item mt-auto mb-auto ml-auto">
+            <li class="nav-item mt-auto mb-auto ml-auto mr-2">
               <button class="button outset-neomo p-1 font-size-5" onclick="window.open('https://neomo-ui.com/')">
                 <i class="fas fa-book-open"></i>
                 Official Site
               </button>
             </li>
+            
           </ul>
         </nav>
       </div>
@@ -335,5 +403,18 @@ button:hover{
   color: rgb(94, 94, 94);
 }
 
+.toggle-menu {
+      display: none;
+       min-width:0px; 
+       width: 3rem;
+}
 
+@media (max-width: 768px) {
+  .nav > .nav-item:not(:last-child){
+    display: none;
+  }
+  .toggle-menu{
+    display: inherit !important;
+  }
+}
 </style>
