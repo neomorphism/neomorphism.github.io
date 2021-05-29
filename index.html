@@ -6,14 +6,47 @@
   
     <title>Neomo UI Sample Page</title>
     <link 
-      href="https://cdn.jsdelivr.net/npm/neomo@2.0.0/dist/neomo.min.css"
+      href="https://cdn.jsdelivr.net/npm/neomo@2.0.1/dist/neomo.min.css"
       rel="stylesheet"
     />
+<<<<<<< Updated upstream
     <link rel="icon" href="./mainlogo3.png"/>
     <script src="https://cdn.jsdelivr.net/npm/neomo@2.0.0/dist/neomo.min.js"></script>
+=======
+    <script src="https://cdn.jsdelivr.net/npm/neomo@2.0.1/dist/neomo.min.js"></script>
+>>>>>>> Stashed changes
   </head>
   <body class="neomo">
-    <header class="neomo" style="z-index: 5;">
+    <div class="container">
+      <div class="main">
+        <div class="columns just-center">
+          <div class="column size-12 text-center">
+            <div class="font-size-0 mb-3 font-weight-1">Neomo UI Sample</div>
+            <p class="font-size-3">v2.0.1</p>
+          </div>
+          <div class="column size-6">
+            <p class="font-size-5 text-center">
+              View intuitively simple and pretty design elements 
+              with the <strong>Neomo</strong>  Framework 
+              <strong>example template</strong> 
+            </p>
+          </div>
+        </div>
+        <!-- <div class="columns just-center mt-10 interval-1"> 
+          <div class="column size-2 text-center">
+            <button class="button outset-neomo font-size-4"
+            onclick='location.href="https://github.com/neomorphism/neomo/archive/refs/tags/v1.0.1.zip"'>
+              <i class="fas fa-file-download"></i>
+              Download <span style="font-size: 0.7rem;">v1.0.1</span>
+            </button>
+          </div>
+          <div class="column size-1 mt-auto mb-auto text-center">
+            <span class="badge outset-neomo font-size-3">Stars</span>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- <header class="neomo" style="z-index: 5;">
       <div class="container">
         <nav>
           <ul class="nav mt-0 mb-0 pt-1 pb-1" style="align-items:center">   
@@ -157,8 +190,8 @@
           </ul>
         </nav>
       </div>
-    </header>
-    <section>
+    </header> -->
+    <!-- <section>
       <div class="container">
         <div class="main">
           <div class="columns just-center">
@@ -194,8 +227,1423 @@
           </div>
         </div>
       </footer>
-    </section>
-	</div>
+    </section> -->
+    
+    <!-- alert -->
+    <div class="container content">
+      <div class="columns just-center interval-1">
+        <div class="column size-5">
+          <p class="font-size-3 text-center">inset alert</p>
+          <div class="alert inset-neomo" role="alert">This is alert!</div>
+        </div>
+        <div class="column size-5">
+          <p class="font-size-3 text-center">outset alert</p>
+          <div class="alert outset-neomo" role="alert">This is alert!</div>
+        </div>
+        <div class="column size-10">
+          <p class="font-size-3 text-center">color alert</p>
+          <div class="alert outset-neomo info" role="alert">This color is info!</div>
+          <div class="alert outset-neomo success" role="alert">
+              This color is success!
+          </div>
+          <div class="alert outset-neomo danger" role="alert">
+              This color is danger!
+          </div>
+          <div class="alert outset-neomo warning" role="alert">
+              This color is warning!
+          </div>
+        </div>
+        <div class="column size-10">
+          <p class="font-size-3 text-center">dismiss alert</p>
+          <div class="outset-neomo alert" role="alert">
+            <span
+              ><strong>Well done!</strong> You successfully read this important alert
+              message.</span
+            >
+            <span class="alt-close">X</span>
+          </div>
+          
+          <div class="outset-neomo alert info" role="alert">
+            <span
+              ><strong>Well done!</strong> You successfully read this important alert
+              message.</span
+            >
+            <span class="alt-close">X</span>
+          </div>
+          <div class="outset-neomo alert success" role="alert">
+            <span
+              ><strong>Well done!</strong> You successfully read this important alert
+              message.</span
+            >
+            <span class="alt-close">X</span>
+          </div>
+          <div class="outset-neomo alert danger" role="alert">
+            <span
+              ><strong>Well done!</strong> You successfully read this important alert
+              message.</span
+            >
+            <span class="alt-close">X</span>
+          </div>
+          <div class="outset-neomo alert warning" role="alert">
+            <span
+              ><strong>Well done!</strong> You successfully read this important alert
+              message.</span
+            >
+            <span class="alt-close">X</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- breadcrumb -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-7 text-center ml-10 mr-10">
+          <p class="font-size-4 text-center">Breadcrumbs with inset style</p>
+          <nav class="breadcrumb inset-neomo">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="breadcrumb inset-neomo centered mt-1">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="breadcrumb inset-neomo right mt-1">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="column size-7 text-center mt-10 ml-10 mr-10">
+          <p class="font-size-4 text-center">Breadcrumbs with outset style</p>
+          <nav class="breadcrumb outset-neomo ">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="breadcrumb outset-neomo centered mt-1">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="breadcrumb outset-neomo right mt-1">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="column size-7 text-center mt-10 ml-10 mr-10">
+          <p class="font-size-4 text-center m-10">Breadcrumbs seperated arrow </p>
+          <nav class="breadcrumb centered arrow inset-neomo " aria-label="breadcrumbs">
+            
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="icon-circle--sm" style="margin-right: 10px">
+                    <i class="fas fa-home fa-sm" style="font-size: 0.4em"></i>
+                  </div>
+                  <span>Neomo</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon-circle--sm" style="margin-right: 10px">
+                    <i class="fas fa-file-alt fa-sm" style="font-size: 0.4em"></i>
+                  </div>
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon-circle--sm" style="margin-right: 10px">
+                    <i class="fas fa-database fa-sm" style="font-size: 0.4em"></i>
+                  </div>
+                  <span>Components</span>
+                </a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  <div class="icon-circle--sm" style="margin-right: 10px">
+                    <i class="fas fa-bread-slice fa-sm" style="font-size: 0.4em"></i>
+                  </div>
+                  <span>Breadcrumb</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="column size-7 text-center mt-10 ml-10 mr-10">
+          <p class="font-size-4 text-center mb-10">Breadcrumbs seperated direction</p>
+          <nav
+          class="breadcrumb centered direction inset-neomo "
+          aria-label="breadcrumbs"
+          >
+          <ul>
+            <li>
+              <a href="#">
+                <div class="icon-circle--sm" style="margin-right: 10px">
+                  <i class="fas fa-home fa-sm" style="font-size: 0.4em"></i>
+                </div>
+                <span>Neomo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="icon-circle--sm" style="margin-right: 10px">
+                  <i class="fas fa-file-alt fa-sm" style="font-size: 0.4em"></i>
+                </div>
+                <span>Documentation</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="icon-circle--sm" style="margin-right: 10px">
+                  <i class="fas fa-database fa-sm" style="font-size: 0.4em"></i>
+                </div>
+                <span>Components</span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a href="#" aria-current="page">
+                <div class="icon-circle--sm" style="margin-right: 10px">
+                  <i class="fas fa-bread-slice fa-sm" style="font-size: 0.4em"></i>
+                </div>
+                <span>Breadcrumb</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- button -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-12 text-center mt-10">
+          <p class="font-size-3 text-center">Default Button</p>
+          <button class="button font-size-5 outset-neomo m-5">Button</button>
+          <button class="button font-size-5 outset-neomo m-5"><i class="far fa-star"></i> Button with left icon</button>
+          <button class="button font-size-5 outset-neomo m-5">Button with left icon <i class="far fa-star"></i></button>
+        </div>
+        <div class="column size-12 text-center mt-10">
+          <p class="font-size-3 text-center">Square Button</p>
+          <button class="button square font-size-5 outset-neomo m-5">Button</button>
+          <button class="button square font-size-5 outset-neomo m-5"><i class="far fa-star"></i> Button with left icon</button>
+          <button class="button square font-size-5 outset-neomo m-5">Button with left icon <i class="far fa-star"></i></button>
+        </div>
+        <div class="column size-12 text-center mt-10">
+          <p class="font-size-3 text-center">Button Sizes</p>
+          <button class="button outset-neomo small m-5">small</button>
+          <button class="button outset-neomo normal m-5">normal</button>
+          <button class="button outset-neomo medium m-5">medium</button>
+          <button class="button outset-neomo large m-5">large</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- card -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-12 mt-10">
+          <p class="font-size-3 text-center">Image Cards</p>
+        </div>
+
+        <div class="column size-5 text-center  m-10">
+          <div class="card outset-neomo">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1620887151464-6d1f707e1226?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                alt="Placeholder image"
+              />
+            </div>
+            <div class="card-content">
+              <p class="font-size-4 profile-link text-left m-0">
+                <img 
+                  class="img-profile p-0" 
+                  srcset="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=1&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                  bg=fff 1x, https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=2&amp;auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
+                  width="32" 
+                  height="32" 
+                  role="presentation" 
+                  alt="Go to Julian Steenbergen's profile"
+                >
+                
+                Julian Steenbergen
+              </p>
+              <p class="text-left">
+                I'm actually a musician, but photography is just too fun. 
+                It brings me joy, inspiration and peace. 
+                Happy to support the community here with my work! ✨
+              </p>
+              <p class="text-left"> 
+                <i class="fas fa-calendar-week"></i> 
+                Published on May 9, 2021
+              </p>
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+              
+            </div>
+          </div>
+      
+        </div>
+
+        <div class="column size-5 text-center  m-10">
+          <div class="card outset-neomo">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1620725432167-559414f64bb0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+                alt="Placeholder image"
+              />
+            </div>
+            <div class="card-content pt-1 pl-1 pr-1">
+              
+              <p class="font-size-4 profile-link text-left m-0">
+                <img 
+                  class="img-profile p-0" 
+                  srcset="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=1&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                  bg=fff 1x, https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=2&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" 
+                  src="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?auto=format&amp;
+                  fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
+                  width="32" height="32" role="presentation" alt="Go to Gabrielle Henderson's profile"
+                >
+                Gabrielle Henderson
+              </p>
+              <p class="text-left">
+                Melbourne based photographer, wordsmith, crafter...xoxo
+                Owner of d'oro global. doroglobal.com
+              </p>
+              <p class="text-left"> 
+                <i class="fas fa-calendar-week"></i> 
+                Published on May 9, 2021
+              </p>
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+            </div>
+          </div>
+      
+        </div>
+
+        <div class="column size-12 mt-10">
+          <p class="font-size-3 text-center">Message Cards</p>
+        </div>
+
+        <div class="column size-5 text-center m-10">
+          <div class="card outset-neomo">
+            <header class="card-header pl-1">
+              <p class="text-left"> 
+                <i class="fas fa-calendar-week"></i> 
+                Published on May 9, 2021
+              </p>
+            </header>
+
+            <div class="card-content pt-0 pb-0 pl-1 pr-1">
+              <p class="font-size-4 profile-link text-left m-0">
+                <img 
+                  class="img-profile p-0" 
+                  srcset="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=1&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                  bg=fff 1x, https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=2&amp;auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
+                  width="32" 
+                  height="32" 
+                  role="presentation" 
+                  alt="Go to Julian Steenbergen's profile"
+                >
+                Julian Steenbergen
+              </p>
+
+              <p class="text-left">
+                I'm actually a musician, but photography is just too fun. 
+                It brings me joy, inspiration and peace. 
+                Happy to support the community here with my work! ✨
+              </p>
+         
+            </div>
+            <footer class="card-footer pl-1 pr-1 pt-0">
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+            </footer>
+          </div>
+
+        </div>
+
+        <div class="column size-5 text-center m-10">
+          <div class="card outset-neomo">
+            <header class="card-header pl-1">
+              <p class="text-left"> 
+                <i class="fas fa-calendar-week"></i> 
+                Published on May 9, 2021
+              </p>
+            </header>
+
+            <div class="card-content pt-0 pb-0 pl-1 pr-1">
+              <p class="font-size-4 profile-link text-left m-0">
+                <img 
+                  class="img-profile p-0" 
+                  srcset="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=1&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                  bg=fff 1x, https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=2&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x" 
+                  src="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?auto=format&amp;
+                  fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff" 
+                  width="32" height="32" role="presentation" alt="Go to Gabrielle Henderson's profile"
+                >
+                Gabrielle Henderson
+              </p>
+
+              <p class="text-left">
+                Melbourne based photographer, wordsmith, crafter...xoxo
+                Owner of d'oro global. doroglobal.com
+              </p>
+         
+            </div>
+            <footer class="card-footer pl-1 pr-1 pt-0">
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+            </footer>
+          </div>
+
+        </div>
+
+        <!-- <div class="column size-12 mt-10">
+          <p class="font-size-3 text-center">Login & Register Cards</p>
+        </div>
+
+        <div class="column size-5 text-center  m-10">
+          <div class="card outset-neomo">
+            <header class="card-header" >
+              <p class="card-header-title just-content-center font-size-4 font-weight-3">Sign in</p>
+            </header>
+            <div class="card-content">
+              <div class="input-group outset-neomo" >
+                <span class="input-group-left text-center"><i class="far fa-envelope"></i></span>
+                <input type="text" class="input-group-right outset-neomo" placeholder="Your Email" />
+              </div>
+              <div class="input-group mt-2 outset-neomo" >
+                <span class="input-group-left text-center"><i class="fas fa-key"></i></span>
+                <input type="text" class="input-group-right outset-neomo" placeholder="Password" />
+              </div>
+                <div class="mt-2" >
+                  <input
+                  id="check1"
+                  class="checkbox-input outset-neomo"
+                  type="checkbox"
+                  value=""
+                />
+                <label class="checkbox-label" for="check1">remember me</label>
+                <button class="button mt-2 mb-2 font-weight-2 outset-neomo">Login</button>
+                <div class="text-center">or</div>
+                <div class="mt-1 btn-icons" > 
+                  <button class="button icon-sm outset-neomo mr-1" ><i class="fab fa-facebook"></i></button>
+                  <button class="button icon-sm outset-neomo"><i class="fab fa-google"></i></button></div>
+                </div>
+                <div class="mt-1 text-column">
+                  <a 
+                    href="template1_register.html" 
+                    class="link-info font-size-6 mb-1">
+                    <strong>Create</strong> an account
+                  </a>
+                  <a 
+                    href="template1_forgotpassword.html" 
+                    class="link-info font-size-6">
+                    <strong>Forgot</strong>  password?
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column size-5 text-center  m-10">
+          <div class="card outset-neomo">
+            <header class="card-header"  >
+              <p class="card-header-title just-content-center font-size-4 font-weight-3" >Create account</p>
+            </header>
+            <div class="card-content">
+            
+              <div class="input-group outset-neomo" >
+                <span class="input-group-left text-center"><i class="far fa-envelope"></i></span>
+                <input type="text" class="input-group-right outset-neomo" placeholder="Your Email"  />
+              </div>
+          
+              <div class="input-group mt-2 outset-neomo" >
+                <span class="input-group-left text-center"><i class="fas fa-key"></i></span>
+                <input type="text" class="input-group-right outset-neomo" placeholder="Password" />
+              </div>
+
+              <div class="input-group mt-2 outset-neomo" >
+                <span class="input-group-left text-center"><i class="fas fa-key"></i></span>
+                <input type="text" class="input-group-right outset-neomo" placeholder="Repeat Password" />
+              </div>
+              <div class="mt-2" >
+                <input
+                id="check1"
+                class="checkbox-input outset-neomo"
+                type="checkbox"
+                value=""
+                />
+                <label class="checkbox-label" for="check1">I agree to the terms and conditions</label>
+                <button class="button mt-2 mb-2 outset-neomo font-weight-2" >Register Account</button>
+                <div class="text-center">or</div>
+                <div class="mt-1 btn-icons"> 
+                  <button class="button icon-sm outset-neomo mr-1"><i class="fab fa-facebook"></i></button>
+                  <button class="button icon-sm outset-neomo"><i class="fab fa-google"></i></button>
+                </div>
+                <div class="mt-1 text-column">
+                  <div class="mb-1">Already have an account? </div>
+                  <a href="template1_login.html" class="link-info font-weight-2 mb-1">Login here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+
+    <!-- checkbox -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-12 text-center ">
+          <p class="font-size-3 text-center">Default Checkbox</p>
+          <input
+      class="checkbox-input outset-neomo"
+      type="checkbox"
+      value=""
+      id="check1"
+    />
+    <label class="checkbox-label" for="check1">This is checkbox.</label>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- checkbox -->
+    <div class="container content">
+      <div class="columns just-center">
+
+
+        <div class="column size-12 text-center ">
+          <p class="font-size-3 text-center">Square Input</p>
+          <input
+          class="input outset-neomo"
+          type="text"
+          disabled
+          placeholder="Disabled"
+          />
+          <br />
+          <input
+          class="input square outset-neomo"
+          type="text"
+          placeholder="Square Input"
+        />
+            
+        </div>
+
+        <div class="column size-12 text-center ">
+          <p class="font-size-3 text-center">Round Input</p>
+          
+            <input
+              class="input rounded outset-neomo"
+              type="text"
+              placeholder="Rounded Input"
+            />
+        </div>
+
+        <div class="column size-12 text-center ">
+          <p class="font-size-3 text-center">Size Input</p>
+          <input
+          class="input outset-neomo small"
+          type="text"
+          placeholder="Small Input"
+          />
+        <br />
+        <input
+          class="input outset-neomo"
+          type="text"
+          placeholder="Normal Input"
+        />
+        <br />
+        <input
+          class="input outset-neomo medium"
+          type="text"
+          placeholder="Medium Input"
+        />
+        <br />
+        <input
+          class="input outset-neomo large"
+          type="text"
+          placeholder="Large Input"
+        />
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="container content">
+      <div class="columns just-center interval-1 pt-1">
+          <div class="column size-10">
+            <button data-modal-id="modal" class="modal-button outset-neomo font-size-3">
+              Message MODAL 
+            </button>
+          </div>
+          <div data-modal-id="modal" class="modal">
+            <div class="modal-content--md outset-neomo">
+              <span class="modal-close">&times;</span>
+              <p>You can insert any type of content with this modal class.</p>
+            </div>
+          </div>
+    
+
+
+        <div class="column size-10">
+          <button data-modal-id="modal3" class="modal-button outset-neomo font-size-3">Middle Card MODAL</button>
+          <div data-modal-id="modal3" class="modal">
+           <div class="modal-content--md outset-neomo">
+      <span class="modal-close">&times;</span>
+      <header class="card-header">
+        <p class="card-header-title">Modal Card</p>
+      </header>
+      <div class="column size-10 text-center ml-10" style="margin: 0 auto">
+        <div class="card-image">
+          <img
+            src="https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+            alt="Placeholder image"
+            style="border-radius: 0"
+          />
+        </div>
+        <div class="card-content">
+          <p class="font-size-4 profile-link text-left m-0">
+            <img
+              class="img-profile p-0"
+              src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+              width="32"
+              height="32"
+              role="presentation"
+              alt="Go to Julian Steenbergen's profile"
+            />
+
+            Julian Steenbergen
+          </p>
+          <p class="text-left">
+            I'm actually a musician, but photography is just too fun. It brings me
+            joy, inspiration and peace. Happy to support the community here with
+            my work! ✨
+          </p>
+          <p class="text-left">
+            <i class="fas fa-calendar-week"></i>
+            Published on May 9, 2021
+          </p>
+          <p class="text-left">
+            <i class="fas fa-shield-alt"></i>
+            Free to use under the Unsplash License
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+
+        <div class="column size-10">
+          <button data-modal-id="modal4" class="modal-button outset-neomo font-size-3">Small Card MODAL</button>
+  <div data-modal-id="modal4" class="modal">
+    <div class="modal-content--sm outset-neomo">
+      <span class="modal-close">&times;</span>
+      <header class="card-header">
+        <p class="card-header-title">Modal Card</p>
+      </header>
+      <div class="column size-10 text-center ml-10" style="margin: 0 auto">
+        <div class="card-image">
+          <img
+            src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Placeholder image"
+            style="border-radius: 0"
+          />
+        </div>
+        <div class="card-content">
+          <p class="font-size-4 profile-link text-left m-0">
+            <img
+              class="img-profile p-0"
+              src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+              width="32"
+              height="32"
+              role="presentation"
+              alt="Go to Julian Steenbergen's profile"
+            />
+
+            Julian Steenbergen
+          </p>
+          <p class="text-left">
+            I'm actually a musician, but photography is just too fun. It brings me
+            joy, inspiration and peace. Happy to support the community here with
+            my work! ✨
+          </p>
+          <p class="text-left">
+            <i class="fas fa-calendar-week"></i>
+            Published on May 9, 2021
+          </p>
+          <p class="text-left">
+            <i class="fas fa-shield-alt"></i>
+            Free to use under the Unsplash License
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    <!-- navigation -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-8 text-center">
+          <p class="font-size-3 ">basic Navigation</p>
+          <ul class="nav outset-neomo border-radius just-center" >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column size-8 text-center mt-10  ">
+          <p class="font-size-3 text-center">animation Navigation</p>
+          <ul class="nav outset-neomo border-radius just-center">
+            <li class="nav-item">
+              <a class="nav-link--animation" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link--animation" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link--animation" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link--animation disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column size-8 text-center mt-10   ">
+          <p class="font-size-3 text-center">Vertical Navigation</p>
+          <ul class="nav-column outset-neomo border-radius">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- pagination -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-8 text-center">
+          <p class="font-size-3 ">basic Pagination</p>
+          <ul class="pagination">
+            <li><a href="#" class="disabled">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="active">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+        <div class="column size-8 text-center mt-10 ">
+          <p class="font-size-3 text-center">icon Pagination</p>
+          <ul class="pagination">
+            <li>
+              <a href="#"><span class="fas fa-angle-double-left"></span></a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="active">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li>
+              <a href="#"><span class="fas fa-angle-double-right"></span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="column size-8 text-center mt-10 ">
+          <p class="font-size-3 text-center">round Pagination</p>
+          <ul class="pagination-round">
+            <li>
+              <a href="#"><span class="fas fa-angle-double-left"></span></a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="active">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li>
+              <a href="#"><span class="fas fa-angle-double-right"></span></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- progressbar -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-8 text-center m-10">
+            <p class="font-size-4 text-center m-1">Progressbars with inset style</p>
+            <span>success</span>
+            <div class="progress inset-neomo">
+              <div class="progress-bar success width-3"></div>
+            </div>
+            <span>info</span>
+            <div class="progress inset-neomo">
+              <div class="progress-bar info width-4"></div>
+            </div>
+            <span>danger</span>
+            <div class="progress inset-neomo">
+              <div class="progress-bar danger width-5"></div>
+            </div>
+            <span>dark</span>
+            <div class="progress inset-neomo">
+              <div class="progress-bar dark width-6"></div>
+            </div>
+            <span>gray</span>
+            <div class="progress inset-neomo">
+              <div class="progress-bar gray width-7"></div>
+            </div>
+        </div>
+
+        <div class="column size-8 text-center m-10">
+            <p class="font-size-4 text-center m-1">Progressbars with outset style</p>
+            <span>success</span>
+            <div class="progress outset-neomo">
+              <div class="progress-bar success width-3"></div>
+            </div>
+            <span>info</span>
+            <div class="progress outset-neomo">
+              <div class="progress-bar info width-4"></div>
+            </div>
+            <span>danger</span>
+            <div class="progress outset-neomo">
+              <div class="progress-bar danger width-5"></div>
+            </div>
+            <span>dark</span>
+            <div class="progress outset-neomo">
+              <div class="progress-bar dark width-6"></div>
+            </div>
+            <span>gray</span>
+            <div class="progress outset-neomo">
+              <div class="progress-bar gray width-7"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- radio -->
+    <div class="container content">
+      <div class="columns just-center">
+
+
+        <div class="column size-12 text-center">
+          <p class="font-size-3 text-center">Default Radio</p>
+          <input
+          class="radio-input outset-neomo"
+          type="radio"
+          name="exam-radio3"
+          value=""
+          id="radio3"/>
+          <label class="radio-label" for="radio3">this is radio. 'option1'</label>
+        </div>
+        <div class="column size-12 text-center">
+            <input
+            class="radio-input outset-neomo"
+            type="radio"
+            name="exam-radio1"
+            value=""
+            id="radio1"
+          />
+          <label class="radio-label" for="radio1">this is radio. 'option2'</label>
+        </div>
+        <div class="column size-12 text-center ">
+        
+            <input
+            class="radio-input outset-neomo"
+            type="radio"
+            name="exam-radio2"
+            value=""
+            id="radio2"
+          />
+          <label class="radio-label" for="radio2">this is radio. 'option3'</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- container -->
+    <div class="container content">
+      <div class="columns just-center">
+
+   
+        <div class="column size-6 text-center">
+          <p class="font-size-3 text-center">Default Range</p>
+          <input
+            data-range-id="range"
+            type="range"
+            min="1"
+            max="100"
+            class="range-round inset-neomo myRange"
+          />
+          <p>Value: <span data-range-id="range" class="demo"></span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- select -->
+    <div class="container content">
+      <div class="columns">
+        <div class="column size-12 text-center">
+          <p class="font-size-3 text-center">Outset Select</p>
+          <select class="outset-neomo">
+            <option selected>This is select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          </div>
+          <div class="column size-12 text-center">
+            <p class="font-size-3 text-center">Inset Select</p>
+          <select class="inset-neomo">
+            <option selected>This is select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="column size-12 text-center mt-2">
+          <p class="font-size-3 text-center">Color Select</p>
+            <select class="outset-neomo info m-1">
+              <option selected>This is select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="outset-neomo success m-1">
+              <option selected>This is select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="outset-neomo danger m-1">
+              <option selected>This is select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="outset-neomo warning m-1">
+              <option selected>This is select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- spinner -->
+    <div class="container ">
+      <div class="columns just-center content">
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-white and <span class="text-point-gray">point-gray</span></p>
+          <p class="loader border-white point-gray outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-white point-gray mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-white and <span class="text-point-purple">point-purple</span></p>
+          <p class="loader border-white point-purple outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-white point-purple mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-white and <span class="text-point-blue">point-blue</span></p>
+          <p class="loader border-white point-blue outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-white point-blue mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-white and <span class="text-point-orange">point-orange</span></p>
+          <p class="loader border-white point-orange outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-white point-orange mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-gray and <span class="text-point-gray">point-gray</span></p>
+          <p class="loader border-gray point-gray outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-gray point-gray mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-gray and <span class="text-point-purple">point-purple</span></p>
+          <p class="loader border-gray point-purple outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-gray point-purple mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-gray and <span class="text-point-blue">point-blue</span></p>
+          <p class="loader border-gray point-blue outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-gray point-blue mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+        <div class="column size-5 text-center m-10 inset-neomo border-radius">
+          <p class="font-size-4 text-center">border-gray and <span class="text-point-orange">point-orange</span></p>
+          <p class="loader border-gray point-orange outset-neomo"></p>
+          <div class="font-size-6 mt-3"><i class="fas fa-arrow-circle-right"></i> with the shadow</div>
+          <p class="loader border-gray point-orange mt-10"></p>
+          <div class="font-size-6 m-3"><i class="fas fa-arrow-circle-right"></i> without the shadow</div>
+        </div>
+
+        <div class="column size-12 text-center mt-10">
+          <p class="font-size-4 text-center">Spinners in buttons</p>
+          <button class="button font-size-5 outset-neomo m-1">
+            <p class="loader border-gray point-gray outset-neomo"></p>
+          </button>
+          <button class="button square font-size-5 outset-neomo m-1">
+            <p class="loader border-gray point-gray outset-neomo"></p>
+          </button>
+          <button class="button font-size-5 outset-neomo m-1">
+            <p class="loader border-gray point-blue neomo"></p>
+          </button>
+          <button class="button square font-size-5 outset-neomo m-1">
+            <p class="loader border-gray point-blue neomo"></p>
+          </button>
+        </div>
+        <div class="column size-12 text-center m-10">
+
+          <button class="button font-size-6 outset-neomo p-1 m-5">
+            Loading...
+            <p class="loader border-gray point-gray outset-neomo mt-1"></p>
+          </button>
+
+          <button class="button square font-size-6 outset-neomo p-1 m-5">
+            <p class="loader border-gray point-gray outset-neomo mb-1"></p>
+            Loading...
+          </button>
+
+          <button class="button font-size-6 outset-neomo p-1 m-5">
+            <div class="loader border-gray point-blue neomo" 
+            style="display: inline-block"></div> Loading...
+          </button>
+          
+          <button class="button square font-size-6 outset-neomo p-1 m-5">
+            Loading... <p class="loader border-gray point-blue neomo" 
+            style="display: inline-block"></p>
+          </button>
+        </div>        
+
+      </div>
+    </div>
+
+    <!-- switches -->
+    <div class="container">
+      <div class="columns just-center">
+
+
+        <div class="column size-12 text-center mt-10">
+          <p class="font-size-3 text-center">Default Switch</p>
+          <label class="switch-label ">
+            <input type="checkbox" class="outset-neomo" />
+            <span class="switch neomo"></span>
+          </label>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- tab -->
+    <div class="container content">
+      <div class="columns just-center">
+        <div class="column size-7">
+          <p class="font-size-3 text-center">Outset Tab</p>
+          <div class="tab m-1">
+            <ul class="tab-list tab-center" >
+              <li><a class="current" id="tab-1">tab1</a></li>
+              <li><a id="tab-2">tab2</a></li>
+              <li><a id="tab-3">tab3</a></li>
+            </ul>
+                <ul class="tab-content outset-neomo ml-auto mr-auto tab-width">
+                  <li id="content-1" class="tab-content--list">
+                    <div class="tab-content--title">title1</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                  <li id="content-2" class="tab-content--list">
+                    <div class="tab-content--title">title2</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                  <li id="content-3" class="tab-content--list">
+                    <div class="tab-content--title">title3</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="column size-7">
+          <p class="font-size-3 text-center">Inset Tab</p>
+              <div class="tab m-1">
+                <ul class="tab-list tab-center">
+                  <li><a class="current" id="tab-4">tab4</a></li>
+                  <li><a id="tab-5">tab5</a></li>
+                  <li><a id="tab-6">tab6</a></li>
+                </ul>
+              
+                    <ul class="tab-content inset-neomo ml-auto mr-auto tab-width">
+                      <li id="content-4" class="tab-content--list">
+                        <div class="tab-content--title">title4</div>
+                        <div class="tab-content--text">
+                          You can insert any type of content with this tab class.
+                        </div>
+                      </li>
+                      <li id="content-5" class="tab-content--list">
+                        <div class="tab-content--title">title5</div>
+                        <div class="tab-content--text">
+                          You can insert any type of content with this tab class.
+                        </div>
+                      </li>
+                      <li id="content-6" class="tab-content--list">
+                        <div class="tab-content--title">title6</div>
+                        <div class="tab-content--text">
+                          You can insert any type of content with this tab class.
+                      </li>
+                    </ul>
+                
+              </div>
+            
+        </div>
+        <div class="column size-12">
+       
+          <div class="tab vertical m-1">
+            <p class="font-size-3 text-center">Vertical Tab</p>
+            <div class="columns just-center">
+              <div class="column size-3">
+                <ul class="tab-list">
+                  <li><a class="current" id="tab-7">tab7</a></li>
+                  <li><a id="tab-8">tab8</a></li>
+                  <li><a id="tab-9">tab9</a></li>
+                </ul>
+              </div>
+              <div class="column size-4">
+                <ul class="tab-content inset-neomo">
+                  <li id="content-7" class="tab-content--list">
+                    <div class="tab-content--title">title7</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                  <li id="content-8" class="tab-content--list">
+                    <div class="tab-content--title">title8</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                  <li id="content-9" class="tab-content--list">
+                    <div class="tab-content--title">title9</div>
+                    <div class="tab-content--text">
+                      You can insert any type of content with this tab class.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- table -->
+    <div class="container content">
+      <div class="columns">
+        <div class="column size-12">
+          <p class="font-size-3 text-center">Outset Table</p>
+          <table class="table outset-neomo">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Male</th>
+                <th>Female</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Soccor</td>
+                <td>23</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Swimming</td>
+                <td>12</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>22</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Math</td>
+                <td>28</td>
+                <td>27</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="column size-12 mt-10">
+          <p class="font-size-3 text-center">Inset Table</p>
+          <table class="table inset-neomo">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Male</th>
+                <th>Female</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Soccor</td>
+                <td>23</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Swimming</td>
+                <td>12</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>22</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Math</td>
+                <td>28</td>
+                <td>27</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- toast -->
+    <div class="container content">
+      <div class="columns just-center m-1">
+          <div class="column size-6 text-center">
+              <p class="font-size-3 text-center">Outset Toast</p>
+              <div class="toast show outset-neomo m-auto">
+                <div class="toast-header">
+                  <strong class="font-size-5">Neomo</strong>
+                  <small class="mr-2 ml-auto">12 mins ago</small>
+                  <span class="toast-close">X</span>
+                </div>
+                <div class="toast-body text-center">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+            </div>
+            <div class="column size-6 text-center">
+              <p class="font-size-3 text-center">Inset Toast</p>
+              <div class="toast show inset-neomo m-auto">
+                <div class="toast-header">
+                  <strong class="font-size-5">Neomo</strong>
+                  <small class="mr-2 ml-auto">12 mins ago</small>
+                  <span class="toast-close">X</span>
+                </div>
+                <div class="toast-body text-center">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+            </div>
+       
+        
+      </div>
+            <!-- Footer -->
+            <footer class="pt-8 pb-8 m-5" >
+              <div class="container">
+                <div
+                  class="text-center"
+                >
+                  <span>Copyright &copy; Your Website 2021</span>
+                </div>
+              </div>
+            </footer>
+    </div>
+
+  </div>
   
 
     
@@ -205,7 +1653,9 @@
 src="https://kit.fontawesome.com/c393dc96fa.js"
 crossorigin="anonymous"
 ></script>
-<style>
+
+<!-- <style>
+  
     body{
         /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
         height: 100%;
@@ -340,5 +1790,202 @@ button:hover{
 
  
 }
+.align-items-center {
+      align-items: center !important;
+    }
 
+    .border-radius {
+      border-radius: 30px;
+    }
+
+    .profile-link{
+      
+    }
+
+    .img-profile{
+      border-radius:50%;
+      overflow:hidden;
+      background-color:rgba(0,0,0,.1);
+      vertical-align:text-bottom;
+      
+    }
+
+    .card-footer{
+      border: none;
+    }
+
+    .input-group, .input-group-right{
+      width: 100%;
+    }
+
+    .button.mt-2.mb-2.font-weight-2.outset-neomo{
+      width: 100%;
+    }
+
+    .btn-icons {
+      display: flex; justify-content: center;
+    }
+
+    .text-column {
+      display: flex;flex-direction: column; align-items: center;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+
+    .just-content-center{
+      justify-content: center;
+    }
+
+    .toggle-menu {
+      display: none;
+       min-width:0px; 
+       width: 3rem;
+}
+
+.just-center{
+      justify-content: center;
+    }
+
+    
+
+
+</style> -->
+
+<style>
+      .font-size-0{
+      font-size: 5rem;
+    }
+
+    .main{
+      display: table-cell;
+      vertical-align: middle;
+      height: 30vh;
+    } 
+
+  body{
+      /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+      height: 100%;
+      margin: 0;
+  }
+
+  header{
+      /* border-bottom: solid thin rgb(236, 230, 230); */
+      position: sticky;
+      top:0;
+      z-index: 100;
+      height: 6rem;
+  }
+
+  section { 
+    height:100vh; 
+    
+  }
+
+
+  .nav-item > .dropdown > .dropdown-button{
+      box-shadow: none!important;
+      text-align: center;
+      
+  }
+
+  .columns:first-child{
+    padding-top: 5rem;
+  }
+
+  .dropdown-button{
+    min-width: 100px;
+  }
+
+  .dropdown-button i{
+    margin-left: 1rem;
+  }
+
+  .neomo-outset-text {
+    color: #9eb3fa;
+    text-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #9bbff5;
+    font-size: 80px;
+    word-break: break-all;
+  }
+
+  .align-items-center {
+    align-items: center !important;
+  }
+
+  .border-radius {
+    border-radius: 30px;
+  }
+
+  .line{
+    width: 100wh;
+    border: thin solid rgba(220, 238, 243, 0.74);
+    margin-top: 8rem;
+  }
+
+  .text-point-gray {
+    color: var(--gray-600);
+  }
+
+  .text-point-purple {
+    color: var(--purple);
+  }
+
+  .text-point-blue {
+    color: var(--blue);
+  }
+
+  .text-point-orange {
+    color: #fa821b;
+  }
+
+.menu-title button{
+min-width: 9rem;
+justify-content: space-between;
+}
+.menu-title a{
+font-size: 0.9rem;
+}
+.dropdown-content a{
+color: gray;
+}
+.dropdown-content a:hover{
+color:#577eff !important;
+}
+button:hover{
+color:#577eff !important
+}
+.official-documment{
+padding:0.9rem;
+margin: 0 0.7rem;
+}
+.content{
+text-align: center;
+}
+.content p:not(.loader){
+margin: 2rem;
+font-weight: bold;
+color: rgb(94, 94, 94);
+}
+
+.toggle-menu {
+    display: none;
+     min-width:0px; 
+     width: 3rem;
+}
+
+@media (max-width: 768px) {
+.nav > .nav-item:not(:last-child){
+  display: none;
+}
+.toggle-menu{
+  display: inherit !important;
+}
+}
+
+.table {
+      width: 70%;
+      margin: auto;
+    }
 </style>
+
