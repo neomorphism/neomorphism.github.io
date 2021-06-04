@@ -2,6 +2,7 @@ body {
   width: 80vw;
   margin: 0.5rem auto;
   line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
 }
 a {
   margin: auto 0;
@@ -76,5 +77,9 @@ a {
 }
 .textarea {
   height: 200px;
-  border-radius: 10px;
+}
+@media screen and (max-width: 1250px) {
+  .header-logo--name {
+    display: none;
+  }
 }
