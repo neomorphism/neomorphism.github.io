@@ -1,0 +1,31 @@
+.body-font {
+  font-family: "Nunito", sans-serif;
+}
+
+.body-bg {
+  background-image: url("https://images.unsplash.com/photo-1484665739383-a1069a82d4be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+.white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.content-margin {
+  margin-top: 18%;
+}
+
+.input-bg {
+  border-radius: 10px !important;
+}
+
+.landing-input {
+  margin-left: auto;
+  width: 70% !important;
+}

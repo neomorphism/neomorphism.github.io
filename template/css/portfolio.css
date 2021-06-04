@@ -1,0 +1,200 @@
+
+  /*  새로추가부분 */
+
+  header{
+    z-index: 5;
+  }
+
+  .card-header{
+    align-items: center;
+  }
+
+  .font{
+    font-family: 'Odibee Sans', cursive;
+  }
+
+  .textarea{
+    width: 100%;
+    border-left: 0.1px solid;
+    border-color: rgb(235, 234, 234);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+  }
+
+  .textarea:focus{
+    outline: 0;
+    cursor: pointer;
+    box-shadow: inset 3px 3px 5px #b8b9be, inset -3px -3px 5px #fff !important;
+  }
+
+  .about-title{
+    font-size: 4rem; 
+    background: linear-gradient(to right, #ff4b1f, #1fddff);
+  }
+
+  .services-title{
+    font-size: 4rem;   
+    background: linear-gradient(to right, #5614b0, #dbd65c);
+  }
+
+  .resume-title{
+    font-size: 4rem; 
+    background: linear-gradient(to right, #ba5370, #f4e2d8);
+  }
+
+  .portfolio-title{
+    font-size: 4rem; 
+    background: linear-gradient(to right, #4ca1af, #c4e0e5); 
+  }
+
+  .contact-title{
+    font-size: 4rem; 
+    background: linear-gradient(to right, #43c6ac, #f8ffae);
+  }
+
+  .profile.table{
+    box-shadow: none;
+  }
+
+  /* 새로추가부분 끝 */
+
+  .font-size-0{
+  font-size: 5rem;
+  }
+
+  .title{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+  } 
+
+  .page{
+    height: 100vh;
+  } 
+
+  body{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    height: 100%;
+    margin: 0;
+  }
+
+  header{
+    /* border-bottom: solid thin rgb(236, 230, 230); */
+    position: sticky;
+    top:0;
+    z-index: 100;
+    height: 6rem;
+  }
+
+  .nav-item > .dropdown > .dropdown-button{
+    box-shadow: none!important;
+    text-align: center;
+    
+  }
+
+  .columns:first-child{
+  padding-top: 5rem;
+  }
+
+  .dropdown-button{
+  min-width: 100px;
+  }
+
+  .dropdown-button i{
+  margin-left: 1rem;
+  }
+
+  .neomo-outset-text {
+  color: #9eb3fa;
+  text-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #9bbff5;
+  font-size: 80px;
+  word-break: break-all;
+  }
+
+  .align-items-center {
+  align-items: center !important;
+  }
+
+  .border-radius {
+  border-radius: 30px;
+  }
+
+  .line{
+  width: 100wh;
+  border: thin solid rgba(220, 238, 243, 0.74);
+  margin-top: 8rem;
+  }
+
+  .text-point-gray {
+  color: var(--gray-600);
+  }
+
+  .text-point-purple {
+  color: var(--purple);
+  }
+
+  .text-point-blue {
+  color: var(--blue);
+  }
+
+  .text-point-orange {
+  color: #fa821b;
+  }
+
+  .menu-title button{
+  min-width: 9rem;
+  justify-content: space-between;
+  }
+  .menu-title a{
+  font-size: 0.9rem;
+  }
+  .dropdown-content a{
+  color: gray;
+  }
+  .dropdown-content a:hover{
+  color:#577eff !important;
+  }
+  button:hover{
+  color:#577eff !important
+  }
+  .official-documment{
+  padding:0.9rem;
+  margin: 0 0.7rem;
+  }
+  .content{
+  text-align: center;
+  }
+  .content p:not(.loader){
+  margin: 2rem;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+  }
+
+  .toggle-menu {
+      display: none;
+      min-width:0px; 
+      width: 3rem;
+  }
+
+  @media (max-width: 768px) {
+  .nav > .nav-item:not(:last-child){
+    display: none;
+  }
+  .toggle-menu{
+    display: inherit !important;
+  }
+  }
+
+  .table {
+        width: 70%;
+        margin: auto;
+  }
+
+  .input-group, .input-group-right{
+    width: 100%;
+  }
+
+  .button.mt-2.mb-2.font-weight-2{
+    width: 100%;
+  }

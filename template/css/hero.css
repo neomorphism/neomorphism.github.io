@@ -1,0 +1,154 @@
+* {
+  font-family: arial;
+}
+/* Header Start */
+.nav {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.nav .nav-link {
+  margin-top: 10px;
+}
+.img {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+.logo {
+  flex-grow: 1;
+}
+.menu-icon {
+  display: none;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.nav .dropdown-content {
+  right: 4%;
+}
+.dropdown {
+  position: relative;
+}
+/* Header End */
+
+/* First Secton Start */
+.hero-body {
+  padding: 4rem 1.5rem 3rem 1.5rem;
+  margin-bottom: 3rem;
+  border-bottom: thin solid rgba(0, 0, 0, 0.08);
+}
+.hero-body--container {
+  max-width: 700px;
+  text-align: center;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+.subtitle {
+  line-height: 1.5;
+  font-weight: 50;
+  font-size: 1rem;
+}
+/* First Secton End */
+
+/* Second Secton Start */
+.hero-intro {
+  padding: 10rem 1.5rem 3rem 1.5rem;
+  margin-bottom: 3rem;
+  border-bottom: thin solid rgba(0, 0, 0, 0.08);
+}
+.hero-intro--container {
+  max-width: 700px;
+  text-align: center;
+}
+.card-link {
+  text-decoration: none;
+  color: rgb(48, 84, 241);
+}
+.card-content > .fa {
+  font-size: 10rem;
+  padding-top: 2rem;
+  color: var(--gray);
+}
+.sandbox {
+  padding: 3rem 0;
+}
+.sandbox .card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.vertical-columns {
+  flex-direction: column;
+  height: 100%;
+}
+.noticifation {
+  position: relative;
+  padding: 1.5rem;
+}
+.noticifation .title,
+.noticifation .subtitle {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.noticifation .card-content {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  font-size: 1.1rem;
+}
+.img2 {
+  width: 100%;
+  height: 300px;
+}
+/* Second Secton End */
+
+/* Footer Start */
+.footer {
+  padding: 3rem 1.5rem 6rem;
+  border-top: 0.0625rem solid rgba(38, 40, 51, 0.096);
+}
+.footer ul {
+  list-style: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  line-height: 30px;
+}
+footer li:before {
+  content: "\f1b2";
+  font-family: "FontAwesome";
+  float: left;
+  margin-left: -1.5em;
+  color: #3273dc;
+}
+.footer a {
+  text-decoration: none;
+  color: #3273dc;
+}
+/* Footer End */
+
+@media screen and (max-width: 800px) {
+  .nav-item {
+    display: none;
+  }
+  .nav .source {
+    display: none;
+  }
+  .nav .menu-icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}

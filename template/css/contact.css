@@ -1,0 +1,80 @@
+body {
+  width: 80vw;
+  margin: 0.5rem auto;
+  line-height: 1.5;
+}
+a {
+  margin: auto 0;
+}
+
+/* Header */
+.header {
+  justify-content: space-between;
+}
+.header-nav {
+  margin: 1rem;
+  display: flex;
+}
+.header-logo {
+  margin: auto 0;
+}
+.header-logo--main {
+  width: 45px;
+  height: 45px;
+}
+.header-logo--name {
+  width: 180px;
+  height: 45px;
+}
+.header-dropdown {
+  padding: auto 0;
+}
+.dropdown-content a {
+  color: rgb(95, 95, 95);
+}
+.nav-link {
+  padding: 1rem;
+  margin: 0 0.4rem;
+}
+
+/* Content */
+.content {
+  padding: 4rem 2rem;
+  margin-top: 5rem;
+
+  height: 70vh;
+}
+.content-column {
+  padding-right: 5rem;
+}
+.content-text {
+  color: rgb(95, 95, 95);
+}
+.content-icon {
+  color: rgb(92, 92, 92);
+  border-radius: 10%;
+  height: 4.5rem;
+  width: 4.5rem;
+  margin: 1rem 1rem;
+}
+.content-input--size {
+  margin: 0.5rem 0;
+  width: 100%;
+  min-width: 420px;
+  padding: 1rem;
+}
+.content-submit {
+  margin: 3rem 0;
+  width: 100%;
+  min-width: 420px;
+}
+.content-submit--button {
+  float: right;
+  padding: 1rem;
+  color: rgb(95, 95, 95);
+  margin: 0;
+}
+.textarea {
+  height: 200px;
+  border-radius: 10px;
+}

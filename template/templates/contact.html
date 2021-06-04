@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>NEOMO-contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/neomo@2.0.2/dist/neomo.min.css"
+    />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+
+  <body class="gray">
+    <!-- Start Header -->
+    <nav class="nav header">
+      <div class="header-logo">
+        <img
+          src="https://neomo-ui.com/blacklogo.png"
+          class="header-logo--main"
+          alt="logo"
+        />
+        <img
+          src="https://neomo-ui.com/logoname.png"
+          class="header-logo--name"
+          alt="logo"
+        />
+      </div>
+      <div class="header-nav">
+        <a class="nav-link"> Home </a>
+        <a class="nav-link"> Examples </a>
+        <a class="nav-link"> Features </a>
+        <a class="nav-link"> Team </a>
+        <a class="nav-link"> Archives </a>
+        <a class="nav-link"> Help </a>
+        <div class="dropdown">
+          <button
+            class="
+              dropdown-button
+              outset-gray
+              content-text
+              font-weight-2
+              header-dropdown
+            "
+          >
+            Account
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content text-center">
+            <a> Dashboard </a>
+            <a> Profile </a>
+            <a> Settings </a>
+            <hr class="navbar-divider" />
+            <a> Logout </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
+
+    <!--Start Content-->
+    <div class="columns content">
+      <div class="column size-8 content-column">
+        <p class="font-size-1 font-weight-1 mt-0">Contact Us</p>
+        <p class="font-size-5 content-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          eligendi soluta voluptate facere molestiae consequatur.
+        </p>
+        <div>
+          <div>
+            <button
+              onclick="location.href='https://github.com/neomorphism/neomo'"
+              class="outset-gray content-icon"
+            >
+              <i class="fab fa-github fa-4x"></i>
+            </button>
+            <button
+              onclick="location.href='https://www.facebook.com/neomoui'"
+              class="outset-gray content-icon"
+            >
+              <i class="fab fa-facebook fa-4x"></i>
+            </button>
+            <button
+              onclick="location.href='https://www.instagram.com/neomoui/'"
+              class="outset-gray content-icon"
+            >
+              <i class="fab fa-instagram fa-4x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="column size-4 content-input content-column">
+        <label class="label">Name</label>
+        <div>
+          <input
+            class="input outset-gray content-input--size"
+            type="text"
+            placeholder="Name"
+          />
+        </div>
+        <div class="mt-1">
+          <label class="label mt-1">Email</label>
+          <div>
+            <input
+              class="input outset-gray content-input--size"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="field mt-1">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea
+              class="textarea is-medium content-input--size outset-gray"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="content-submit">
+          <button
+            type="submit"
+            class="button outset-gray font-size-5 content-submit--button"
+          >
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--End Content-->
+
+    <script src="https://cdn.jsdelivr.net/npm/neomo@2.0.2/dist/neomo.min.js"></script>
+  </body>
+</html>
