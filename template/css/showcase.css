@@ -1,143 +1,153 @@
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 
 .nav {
-    border: thin solid rgba(220, 238, 243, 0.74);
-    margin-top: 0;
+  border: thin solid rgba(220, 238, 243, 0.74);
+  margin-top: 0;
 }
-.nav-link--animation{
-    font-size: 1.3rem;
-    font-weight: bold;
-    color : #9db9ed;
-    transition: color 0.3s ease-in-out;
+.nav-link--animation {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #9db9ed;
+  transition: color 0.3s ease-in-out;
+  margin: 1rem 0;
 }
 
 .nav-link--animation:hover {
-    color:var(--blue) !important;
-    
+  color: var(--blue) !important;
 }
 .hide {
-    opacity: 0;
-    transition: all 2s ease-in-out;
-    border-radius: 10px;
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  border-radius: 10px;
 }
 
 .hide.show {
-    opacity: 1;
+  opacity: 1;
 }
 @keyframes fadeIn {
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes upToDown {
-    from {
-        transform: translateY(-3rem);
-    }
-    to {
-        transform: none;
-
-    }
+  from {
+    transform: translateY(-3rem);
+  }
+  to {
+    transform: none;
+  }
 }
 
-.nav-link--animation{
-    cursor: pointer;
+.nav-link--animation {
+  cursor: pointer;
+}
+.title {
+  font-size: 1.3rem;
 }
 
-.show-header{
-    height: 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2018/03/06/17/40/paper-3204064_1280.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.9;
+.show-header {
+  height: 100vh;
 
+  background: linear-gradient(rgba(31, 44, 68, 0.65), rgba(31, 44, 108, 0.65)),
+    rgba(70, 0, 50, 1)
+      url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
 }
 
 .header-sub--title {
-    font-size: 2rem;
-    animation: upToDown 0.7s ease-in-out;
+  font-size: 2rem;
+  animation: upToDown 0.7s ease-in-out;
+  color: whitesmoke;
 }
 
 .header-title {
-    font-size: 3rem;
-    animation: fadeIn 3s ease-in-out forwards;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  animation: fadeIn 3s ease-in-out forwards;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: whitesmoke;
 }
 
 .nav {
-   justify-content: center;
+  justify-content: center;
 }
 
-.about-content{
-    border-radius: 10px; 
-    padding-bottom: 1.5rem;
+.about-content {
+  border-radius: 10px;
+}
+.about-image {
+  padding-bottom: 1.5rem;
+}
+.about-image,
+.my-work--image {
+  width: 100%;
+  animation: fadeIn 3s ease-in-out forwards;
 }
 
-.about-image, .my-work--image{
-    width: 100%;
-    animation: fadeIn 3s ease-in-out forwards;
-    
-}
+.about-image img,
+.my-work--image img {
+  display: block;
+  border-radius: 20px;
 
-.about-image img, .my-work--image img {
-    display: block;
-    border-radius: 20px;
-    
-    width: 100%;
-    /* margin:  1rem auto; */
+  width: 100%;
+  /* margin:  1rem auto; */
 }
 .about-link {
-    width: 50%;
-  
+  width: 50%;
 }
 .about-link--title {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .progress {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.my-work--content{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.my-work--content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-footer{
-    height: 70px;
-    width: 100vw;
-    background-color: var(--info);
-    margin-top: 6rem;
-    color : var(--white);
-    
-} 
-
+footer {
+  height: 70px;
+  width: 100vw;
+  background-color: var(--info);
+  margin-top: 6rem;
+  color: var(--white);
+}
 
 @keyframes hideSplash {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        visibility: hidden;
-    }
-    
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .splash {
-    background :linear-gradient(45deg, var(--neomo), #9db9ed);
-    position: absolute;
-    width: 100vw;
-    height: 300vh;
-    top : 0;
-    animation: hideSplash 1.3s linear forwards;
+  background: rgba(31, 44, 108, 0.65);
+  position: absolute;
+  width: 100vw;
+  height: 300vh;
+  top: 0;
+  animation: hideSplash 1.3s linear forwards;
 }
