@@ -1,0 +1,80 @@
+.text-color {
+  color: #3478df !important;
+}
+
+.btn-icons {
+  display: flex;
+  justify-content: center;
+}
+.card-header {
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-size {
+  font-size: 1.3rem;
+}
+
+.icon-size:hover {
+  color: #3163ad !important;
+}
+
+.input-group > .input-group-left:not(input) {
+  border-color: rgba(0, 86, 179, 0.1);
+}
+
+.width-full {
+  width: 100% !important;
+}
+
+.sign-remember {
+  font-size: 0.8rem;
+}
+.sign-button:hover {
+  color: #3163ad !important;
+}
+
+.sign-icon--between {
+  width: 0.7rem;
+}
+.text-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-account {
+  font-size: 1rem !important;
+  text-decoration: none;
+}
+
+.sign-forgot {
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.sign-link--black {
+  font-size: 0.7rem;
+}
+.sign-link--black:visited,
+.sign-link--black:link {
+  color: #707070;
+}
+.sign-link--black:hover {
+  color: #063c8d;
+}
+
+.checkbox-label {
+  font-size: 0.8rem;
+  vertical-align: 0;
+}
+
+.sign-input--name {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.sign-signin {
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
