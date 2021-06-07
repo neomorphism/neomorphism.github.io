@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Landing - Free Neomo template</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c393dc96fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Neomo Version 2.0.2-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/neomo@2.0.2/dist/neomo.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/neomo@2.0.2/dist/neomo.min.js"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../css/metropolis.css" />
+    <!-- Local JS -->
+    <script src="../js/metropolis.js"></script>
+  </head>
+
+  <body id="body-font">
+    <!-- Navigation Bar -->
+    <header class="columns" id="header">
+      <div class="column size-12">
+        <nav>
+          <ul class="nav mt-0 mb-0 pl-10 pt-1 pb-1">
+            <li class="nav-item mt-auto mb-auto">
+              <a href="https://neomo-ui.com" class="link">
+                <button class="button">
+                  <i class="fa fa-home fa-2x"></i>
+                  <span class="font-size-3 body-font">NEOMO</span>
+                </button>
+              </a>
+            </li>
+            <div class="nav mt-auto mb-auto ml-auto">
+              <li class="nav-item">
+                <a
+                  href="https://www.youtube.com/channel/UCHkKemQQnyqx4TQtvZJ8ZHg"
+                  class="nav-link--animation"
+                >
+                  <i class="fab fa-youtube fa-lg"></i>
+                  <span>YouTube</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://neomorphism.github.io"
+                  class="nav-link--animation"
+                >
+                  <i class="far fa-hand-point-up fa-lg"></i>
+                  <span>Examples</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://neomo-ui.com/getting_started/introduction/"
+                  class="nav-link--animation"
+                >
+                  <i class="fas fa-book-open"></i>
+                  <span>Documentation</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link--animation disabled">
+                  <i class="fa fa-github"></i>
+                  <span>View Source</span></a
+                >
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Content Section -->
+    <section class="columns" id="body-bg">
+      <div class="column size-12">
+        <div class="empty-space"></div>
+        <div class="columns just-center">
+          <div class="column size-4 text-center">
+            <img
+              src="https://github.com/neomorphism/neomo-web/blob/main/static/mainlogo.png?raw=true"
+              height="200"
+            />
+            <div
+              class="font-size-2 font-weight-2 text-center text-white"
+              id="header-title"
+            >
+              A New UI Framework, NEOMO
+            </div>
+          </div>
+        </div>
+        <div class="columns just-center">
+          <div class="column size-4 text-center">
+            <img
+              src="https://image.flaticon.com/icons/png/512/625/625946.png"
+              height="150"
+              id="scroll-down-image"
+              onclick="clickArrow()"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Section -->
+    <main id="main">
+      <!-- First Section of Main -->
+      <section class="columns just-center text-center">
+        <div class="column size-5">
+          <div id="content-container">
+            <p class="font-size-5 font-weight-lighter text-center">
+              If you want to get information about our new service, please
+              submit your email below.
+            </p>
+            <p class="font-size-6 font-weight-lighter text-center">
+              Antigua + Barbuda | November - July<br />
+              Belize | November - July&nbsp;<br />
+              US Virgin Islands | November - July<br />
+              The Bahamas | Year Round&nbsp;<br />
+              The Florida Keys | Year Round&nbsp;<br />
+              Sea of Cortez, Mexico | November - June<br />
+              French Polynesia | April - November<br />
+              Greece | July - October<br />
+              Italy | July - October<br />
+              Croatia | June - October<br />
+              Nantucket Sound | July - September<br />
+              Chesapeake Bay | July - September<br />
+              Maine | July - September
+            </p>
+          </div>
+          <div class="pt-3 pb-3" id="input-container">
+            <input
+              type="text"
+              class="input"
+              placeholder="Your email"
+              id="landing-input"
+            />
+            <button data-modal-id="modal" class="button normal font-size-6">
+              Submit
+            </button>
+            <div data-modal-id="modal" class="modal">
+              <div class="modal-content--md" style="margin-top: 30%">
+                <span class="modal-close">&times;</span>
+                <p>You can insert any type of content with this modal class.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Second Section of Main -->
+      <section class="columns just-center text-center mt-10">
+        <div class="column size-3 text-center m-10">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1620887151464-6d1f707e1226?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                alt="Placeholder image"
+              />
+            </div>
+            <div class="card-content">
+              <p class="font-size-4 profile-link text-left m-0">
+                <img
+                  class="img-profile p-0"
+                  srcset="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=1&amp;
+                auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                bg=fff 1x, https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?dpr=2&amp;auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x"
+                  src="https://images.unsplash.com/profile-1609856653329-a9e174ff28b6image?auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+                  width="32"
+                  height="32"
+                  role="presentation"
+                  alt="Go to Julian Steenbergen's profile"
+                />
+
+                Julian Steenbergen
+              </p>
+              <p class="text-left">
+                I'm actually a musician, but photography is just too fun. It
+                brings me joy, inspiration and peace. Happy to support the
+                community here with my work! ✨
+              </p>
+              <p class="text-left">
+                <i class="fas fa-calendar-week"></i>
+                Published on May 9, 2021
+              </p>
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column size-3 text-center m-10">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1620725432167-559414f64bb0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+                alt="Placeholder image"
+              />
+            </div>
+            <div class="card-content pt-1 pl-1 pr-1">
+              <p class="font-size-4 profile-link text-left m-0">
+                <img
+                  class="img-profile p-0"
+                  srcset="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=1&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;
+                  bg=fff 1x, https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?dpr=2&amp;
+                  auto=format&amp;fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff 2x"
+                  src="https://images.unsplash.com/profile-1585224130087-8fc37d1fba1eimage?auto=format&amp;
+                  fit=crop&amp;w=32&amp;h=32&amp;q=60&amp;crop=faces&amp;bg=fff"
+                  width="32"
+                  height="32"
+                  role="presentation"
+                  alt="Go to Gabrielle Henderson's profile"
+                />
+                Gabrielle Henderson
+              </p>
+              <p class="text-left">
+                Melbourne based photographer, wordsmith, crafter...xoxo Owner of
+                d'oro global. doroglobal.com
+              </p>
+              <p class="text-left">
+                <i class="fas fa-calendar-week"></i>
+                Published on May 9, 2021
+              </p>
+              <p class="text-left">
+                <i class="fas fa-shield-alt"></i>
+                Free to use under the Unsplash License
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Third Section of Main -->
+      <section class="columns just-center text-center">
+        <div class="column size-12">
+          <img
+            src="https://www.wearebrain.com/blog/wp-content/uploads/2020/05/NM_cover_1_web.png"
+            id="content-image"
+          />
+        </div>
+        <div class="column size-8 text-left">
+          <h1 class="font-size-1">Neumorphism</h1>
+          <p class="font-size-5">
+            Neumorphism (or Neo-skeuomorphism) is a modern iteration of a style
+            of designing web elements, frames, screens, etc. known as
+            Skeuomorphism. SO, Neumorphism is a witty (right?) combo of the
+            words “New” and “Skeuomorphism”. Since “New” isn’t a new word to us,
+            let’s look at “Skeuomorphism”.
+          </p>
+        </div>
+        <div class="column size-7 text-left">
+          <h1 class="font-size-3 text-gray">Skeuomorphism = Old Apple Style</h1>
+        </div>
+        <div class="column size-8 text-left">
+          <h1 class="font-size-1">The Death of Skeuomorphism</h1>
+          <p class="font-size-5">
+            Apple — The standard — had pronounced Skeuomorphism dead, and the
+            entire community echoed to the detriment of the Skeuomorphic
+            professionals. Designers being the versatile people they are, easily
+            made the switch.
+          </p>
+        </div>
+      </section>
+      <!-- Last Section of Main -->
+      <section class="columns just-center text-center" id="pagination">
+        <div class="column size-12 text-center">
+          <ul class="pagination">
+            <li><a href="#" class="disabled">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="active">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="dark text-center">
+      <div>
+        <div id="footer-icon">
+          <a href="https://github.com/neomorphism/neomo"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a href="https://www.facebook.com/neomoui"
+            ><i class="fab fa-facebook fa-2x ml-10 mr-10"></i
+          ></a>
+          <a href="https://www.instagram.com/neomoui/"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+        </div>
+        <div class="mb-0">
+          Designed and built with all the love in the world by the
+          <a href="https://github.com/neomorphism/neomo" class="mt-3">AST </a>
+          with the help of
+          <a href="https://github.com/neomorphism/neomo">Our Contributors</a>.
+
+          <p class="mt-5">Currently v2.0.2.</p>
+          <p class="pb-10">Released under the <a>MIT License.</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
