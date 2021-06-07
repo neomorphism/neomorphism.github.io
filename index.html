@@ -2007,5 +2007,36 @@ color: rgb(94, 94, 94);
       width: 70%;
       margin: auto;
     }
+
+
+.range-round {
+    background: var(--neomo);
+
+}
+
+.range-round::-webkit-slider-thumb {
+    background:  #cbe7fc;
+    box-shadow: none;
+  
+}
+
+.range-round::-moz-range-thumb {
+    background:  #cbe7fc;
+    box-shadow: none;
+  }
+    
+.switch {
+    box-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #3a72d349 !important;
+}
+
+.switch:before {
+    background-color: var(--neomo);
+    box-shadow: -3px -3px 7px #ffffffe5, 3px 3px 5px #3a72d349 !important;
+}
+
+input:checked + .switch {
+    box-shadow: inset -3px -3px 7px #ffffffe5,
+    inset 3px 3px 5px rgba(55, 114, 216, 0.288) !important;
+}  
 </style>
 
