@@ -1,7 +1,10 @@
 * {
-  font-family: arial;
+  font-family: "Lobster";
 }
 /* Header Start */
+.header {
+  border-bottom: thin solid rgba(0, 0, 0, 0.08);
+}
 .nav {
   margin-top: 0;
   margin-bottom: 5px;
@@ -20,30 +23,31 @@
 .menu-icon {
   display: none;
   min-width: 40px;
+  min-height: 40px;
   width: 40px;
   height: 40px;
   margin-top: 10px;
+  padding: 8px;
+}
+.menu-icon i {
+  padding-right: 5px;
 }
 .nav .dropdown-content {
   right: 4%;
-}
-.dropdown {
-  position: relative;
 }
 /* Header End */
 
 /* First Secton Start */
 .hero-body {
-  padding: 4rem 1.5rem 3rem 1.5rem;
+  padding: 7rem 1.5rem 7rem 1.5rem;
   margin-bottom: 3rem;
-  border-bottom: thin solid rgba(0, 0, 0, 0.08);
 }
 .hero-body--container {
   max-width: 700px;
   text-align: center;
 }
 .title {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.125;
 }
@@ -55,10 +59,12 @@
 /* First Secton End */
 
 /* Second Secton Start */
+.main {
+  margin-top: 3rem;
+}
 .hero-intro {
   padding: 10rem 1.5rem 3rem 1.5rem;
   margin-bottom: 3rem;
-  border-bottom: thin solid rgba(0, 0, 0, 0.08);
 }
 .hero-intro--container {
   max-width: 700px;
@@ -136,11 +142,8 @@ footer li:before {
 }
 /* Footer End */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .nav-item {
-    display: none;
-  }
-  .nav .source {
     display: none;
   }
   .nav .menu-icon {
